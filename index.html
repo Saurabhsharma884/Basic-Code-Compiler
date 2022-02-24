@@ -13,14 +13,31 @@
 <body>
     <div id="title">Code Editor</div>
     <div id="container">
-        <div id="control">Type Your Code</div>
+        <div id="control">
+            <div id="langSelect">
+                <label for="langs">Choose Language:</label>
+                <select name="langs" id="langs">
+                    <option value="0">Python</option>
+                    <option value="4">JavaScript</option>
+                    <option value="7">C</option>
+                    <option value="77">CPP</option>
+                    <option value="8">Java</option>
+                </select>
+            </div>
+           
+        </div>
         <div id="area">
             <div id="editor">
 
+                <button id="submitBtn">
+                    SUBMIT
+                </button>
             </div>
+           
             <div id="output">
-    
+
             </div>
+           
         </div>
     </div>
     <script src="main.js" async defer></script>
