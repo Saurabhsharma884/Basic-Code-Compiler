@@ -31,6 +31,7 @@ body {
   background-color: #404247;
   width: 49.5%;
   height: 100%;
+  padding: 2px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -53,10 +54,17 @@ body {
 #langSelect {
 }
 
+#editorArea {
+  color: white;
+  width: 99%;
+  height: 99%;
+  background-color: transparent;
+}
+
 #submitBtn {
-  position: relative;
-  top: 90%;
-  left: 85%;
+  position: absolute;
+  top: 88%;
+  left: 44%;
   background-color: green;
   color: white;
   font-weight: bolder;
