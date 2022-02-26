@@ -25,7 +25,7 @@ body {
 #area {
   display: flex;
   margin-top: 5px;
-  height: 93%;
+  height: 90%;
 }
 #editor {
   background-color: #404247;
@@ -62,13 +62,14 @@ body {
 }
 
 #submitBtn {
-  position: absolute;
+  /* position: absolute;
   top: 88%;
-  left: 44%;
+  left: 44%; */
   background-color: green;
   color: white;
   font-weight: bolder;
   border-radius: 10px;
+  /* margin: 10px; */
   width: 80px;
-  height: 50px;
+  /* height: 40px; */
 }
